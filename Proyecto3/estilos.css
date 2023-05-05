@@ -1,0 +1,60 @@
+
+.fondo {
+    background-image: url('imagenes/photo-1550147760-44c9966d6bc7.jfif');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.tarjeta {
+    background-image: url('imagenes/istockphoto-501442965-612x612.jpg');
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+   
+  }
+  .foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+
+  }
+
+
+  .foto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .nombre {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+  .nacionalidad {
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+ 
+  .secciones {
+    display: flex;
+    margin-right: 20px;
+   
+  }
+  
+  .seccion .valor {
+    font-size: 28px;
+    font-weight: bold;
+    
+  }
+  
+ 

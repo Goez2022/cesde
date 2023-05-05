@@ -1,0 +1,42 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body{
+    background-color: hsl(185,75%,39%);
+    background-image: url(imagenes/bg-pattern-bottom_xd5zrw\ \(1\).svg);
+}
+
+.container-info{
+    background-color: white;
+    width: 350px;
+    
+}
+.main-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 0 0 15px 15 px;
+
+
+}
+.img-fondo{
+
+    background-image: url(imagenes/bg-pattern-card_fchp5g\ \(1\).svg);
+    width: 350px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: block;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+}

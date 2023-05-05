@@ -1,0 +1,138 @@
+*{
+   padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.encabezado{
+    background-color: #9350b1;
+    display: flex;
+    padding: 10 px;
+   
+    align-items: center;
+    border-radius: 15px 15px 0 0; /*   "top", "right", "bottom" y "left"*/
+    color: white;
+}
+
+.header.encabezado h1 {
+    text-align: left;
+  }
+  
+
+.encabezado figure img{
+
+    width: 50px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    padding: 5 px;
+    background-color: #f8e4f5;
+    gap: 20px;
+
+}
+
+
+.charizar-container{
+    display: flex;
+    gap: 20 px;
+    flex-direction: column;
+   width: 50%;
+   background-color: #deb9d8;
+   border-radius: 15px;
+  
+
+}
+.titulo{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 15px;
+    gap: 10 px;
+    
+ 
+
+}
+.titulo figure img{
+
+    width:  80%;
+    height: 60px;
+    
+}
+.img-charizard img {
+    width: 100%;
+    object-fit: cover;
+   
+  }
+ 
+
+.footer-container figure img{
+
+    width: 100px;
+    height: 100px;
+}
+.info-pokemon{
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 25px;
+border-radius: 15px;
+width: 40%;
+gap: 20px;
+
+}
+.info-nivel{
+    display: flex;
+    justify-content: space-around
+
+}
+.info-num{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.info-titulo{
+    color: #9350b1;
+   font-weight: bold;
+    font-size: 20px;
+}
+.info-valor{
+    font-size: 22px;
+}
+.footer-container{
+    display: flex;
+    background-color: white;
+    border-radius: 0 0 15 px 15px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-container div{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 65%;
+
+}
+.footer-container figure{
+    background-color: #f8e4f5;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+.footer-container figure:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+.footer-container h3:hover{
+    color: #9350b1;
+    font-size: 30px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: rosybrown;
+}
+
+.contenedor-form{
+
+    display: flex;
+    margin: 20 px;
+    justify-content: space-around;
+}
+
+/*     estilos generales para h1*/
+h1{
+    color: aqua;
+}
+
+.img{
+   
+background-color: black;
+border-radius:0%;
+
+}
+.imagenes{
+    background-color: aquamarine;
+}
+.btn a {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
